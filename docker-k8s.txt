@@ -1,0 +1,9 @@
+sudo docker login --username=madhusudangoudk    == Docker hub login
+sudo docker build --tag  april19docker/node-app:6.0 .  == image build
+sudo docker push april19docker/node-app:4.0  == image push to Docker hub
+
+minikube start  ==  start minikube k8s
+
+https://www.youtube.com/watch?v=CfPRbdT-wXo    == Deploying Node.js Application In Kubernetes
+kubectl apply -f Deployment.yaml ==  To create the deployment
+kubectl apply -f Service.yaml  == To create the service 

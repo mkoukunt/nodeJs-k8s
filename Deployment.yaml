@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: node-app
-        image: april19docker/node-app:3.0
+        image: april19docker/node-app:7.0
         ports:
         - containerPort: 3000
